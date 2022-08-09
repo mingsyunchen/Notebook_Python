@@ -1,8 +1,7 @@
 Requests : https://requests.readthedocs.io/en/latest/
 
-## Difference between "data" and "params" in Python requests
-* params form the query string in the URL
-* data is used to fill the body of a request (together with files). GET and HEAD requests have no body.
+### params: to send some sort of data in the URL’s query string.
+<img width="743" alt="image" src="https://user-images.githubusercontent.com/106572020/183641459-18566779-3ed8-45c2-a4d4-afe3cd593327.png">
 
-For the majority of servers accepting a POST request, the data is expected to be passed in as the request body.
-You need to consult the documentation for the specific API you are calling as to what they expect, but if you have to assume, assume you have to use data.
+### data: to send some form-encoded data — much like an HTML form.
+<img width="743" alt="image" src="https://user-images.githubusercontent.com/106572020/183642101-038264f7-a80b-4225-ae5c-c5716be43c52.png">
